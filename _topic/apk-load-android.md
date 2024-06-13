@@ -41,11 +41,11 @@ On your computer run `adb devices` in a terminal. If you see a prompt on your ph
 
 # Install the app
 
-Now run `adb install --bypass-low-target-sdk-block pebble-4.4.3.apk` on your computer. This will install the Pebble app onto your phone.
+Now run `adb install --bypass-low-target-sdk-block pebble-4.4.3.apk` on your computer to install the Pebble app onto your phone. Make sure the Pebble APK file is in the same folder you're running your terminal in.
 
 ![](/images/adb/terminal.png)
 
-Make sure the Pebble APK is in the same folder you're running your terminal in.
+Running this command will trigger a 'Google Play Protect' dialog to appear on your phone saying "Harmful app blocked: Pebble". Do _not_ click the 'Got it' button. Instead, click on the 'More details' link. This will provide you with a 'Install anyway' link. Clicking that link will install the app.
 
 The Pebble app is now installed on your phone!
 
